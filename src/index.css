@@ -1,0 +1,67 @@
+h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #78BCF0;
+}
+
+.main-container {
+  display: flex;
+ justify-content: center; 
+  align-items: center;     
+  
+}
+
+.content-container {
+  text-align: center; 
+}
+
+.main-title{
+ color: #78BCF0;
+  font-family: 'Poiret One', sans-serif;
+font-size: 6rem;
+
+}
+.pixelart-img {
+  display: block;     
+  margin: 0 auto;      
+}
+
+
+.quote {
+  color: #78BCF0;
+  font-family: 'Poiret One', sans-serif;
+  font-size: 1.3rem;
+  font-style: italic;
+  margin-top: 20px;
+}
+
+
+body{
+  margin: 0;
+  
+
+}
+
+.navbar {
+  font-family: "Poiret One", sans-serif;
+  color: white;
+  font-size: 30px;
+ }
+
+p {
+  font-family: "Poiret One", sans-serif;
+}
+
+.mainbox {
+  font-family: "Poiret One", sans-serif;
+}
+
+.name {
+  font-family: "Poiret One", sans-serif;
+    color: white;
+    margin-right: 50px;
+}
+
+
+
+
+
