@@ -1,3 +1,5 @@
+import cinema from "./cinema.png"
+
 const OtrosProyectos = () => {
   return (
     <div style={{ textAlign: "center", padding: "40px" }}>
@@ -16,7 +18,7 @@ const OtrosProyectos = () => {
      
       <div className="circle-container">
         <a href="https://nuguit.github.io/cinema/" target="_blank" rel="noopener noreferrer" className="circle">
-          <img src="src\Pages\OtrosProyectos\cinema.png" alt="Proyecto cine" />
+          <img src={cinema} alt="Proyecto cine" />
           <div className="overlay">Cinema project</div>
         </a>
 
