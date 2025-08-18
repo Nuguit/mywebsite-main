@@ -1,4 +1,3 @@
-import React from 'react';
 import html from "../SobreMi/html.svg";
 import css from "../SobreMi/css.svg";
 import javascript from "../SobreMi/javascript.svg";

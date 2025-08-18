@@ -1,4 +1,3 @@
-import React from 'react';
 import safemap from "../SafeMap/safemap.png";
 
 const SafeMapPage = () => {

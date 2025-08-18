@@ -1,4 +1,3 @@
-import React from 'react';
 import perfil from "../SobreMi/perfil.png";
 import SwitchImage from './SwitchImage';
 
