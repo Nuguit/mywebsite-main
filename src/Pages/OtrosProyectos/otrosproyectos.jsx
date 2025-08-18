@@ -1,4 +1,7 @@
 import cinema from "./cinema.png"
+import eagles from "./eagles.png"
+import advokat from "./advokat.png"
+import offline from "./offline.jpg"
 
 const OtrosProyectos = () => {
   return (
@@ -9,30 +12,48 @@ const OtrosProyectos = () => {
         en desarrollo web.
       </p>
       <br />
-      <p>
+      <p style={{color: "#78BCF0", }}>
         Here you will find a selection of projects I have worked on or created as
         part of my ongoing learning process and continuous practice in web
         development.
       </p>
     <br />
-     
+     <h2>Proyectos desde cero / Projects from scratch</h2>
+     <br />
       <div className="circle-container">
-        <a href="https://nuguit.github.io/cinema/" target="_blank" rel="noopener noreferrer" className="circle">
-          <img src={cinema} alt="Proyecto cine" />
-          <div className="overlay">Cinema project</div>
-        </a>
+  <a href="https://nuguit.github.io/cinema/" target="_blank" rel="noopener noreferrer" className="circle">
+    <img src={cinema} alt="Proyecto cine" />
+    <div className="overlay">Cinema project</div>
+  </a>
 
-        {/* <a href="https://ejemplo2.com" target="_blank" rel="noopener noreferrer" className="circle">
-          <img src="https://via.placeholder.com/200" alt="Proyecto 2" />
-          <div className="overlay">Proyecto 2: Web App</div>
-        </a>
+  <a href="https://eaglesinspain.free.nf/" target="_blank" rel="noopener noreferrer" className="circle">
+    <img src={eagles} alt="Proyecto Eagles" />
+    <div className="overlay">Eagles Project</div>
+  </a>
+</div>
+<br />
+<h2>Trabajos de modificación de código, creación de contenido / Code modification tasks, content creation</h2>
+     <br />
+      <div className="circle-container">
+  <a href="https://advokatkontoret.es/" target="_blank" rel="noopener noreferrer" className="circle">
+    <img src={advokat} alt="Advokatkontoret" />
+    <div className="overlay">Advokatkontoret lawyers</div>
+  </a>
+</div>
 
-        <a href="https://ejemplo3.com" target="_blank" rel="noopener noreferrer" className="circle">
-          <img src="https://via.placeholder.com/200" alt="Proyecto 3" />
-          <div className="overlay">Proyecto 3: Portfolio</div>
-        </a> */ }
+<br />
+<h2>Trabajos de comunicación empresarial/offline / Corporate/offline communication work</h2>
+     <br />
+      <div className="circle-container">
+  <a href="https://pdfhost.io/v/H4CPg3updc_presentacion_trabajos_anteriores" target="_blank" rel="noopener noreferrer" className="circle">
+    <img src={offline} alt="Offline work" />
+    <div className="overlay">Some of my offline work</div>
+  </a>
+</div>
+
+        
       </div>
-    </div>
+    
   );
 };
 
