@@ -14,7 +14,7 @@ const OtrosProyectos = () => {
         part of my ongoing learning process and continuous practice in web
         development.
       </p>
-
+    <br />
      
       <div className="circle-container">
         <a href="https://nuguit.github.io/cinema/" target="_blank" rel="noopener noreferrer" className="circle">
