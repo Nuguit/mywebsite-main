@@ -5,7 +5,8 @@ const Navbar = () => {
   const NAVIGATION_LINK = [
     { link: "/about", text: "Sobre mí" },
     { link: "/curriculum", text: "Curriculum" },
-    { link: "/safemap", text: "SafeMap" }
+    { link: "/safemap", text: "SafeMap" },
+    { link: "/otrosproyectos", text: "Otros proyectos" }
   ];
 
   return (
