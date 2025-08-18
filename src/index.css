@@ -59,10 +59,10 @@ p, .mainbox, .name {
   margin-top: 10px;
 }
 
-/* Contenedor general */
+
 .circle-container {
   display: flex;
-  gap: 20px; /* espacio entre círculos */
+  gap: 20px; 
   justify-content: center;
   flex-wrap: wrap;
 }
