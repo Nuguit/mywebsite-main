@@ -1,28 +1,44 @@
-import React from 'react';
-import { Flex } from '@chakra-ui/react';
+import { Flex, Text, Link, Image } from '@chakra-ui/react';
 import github from "../../Pages/SobreMi/github.svg";
 
 const Footer = () => {
   return (
     <Flex
-      padding="15px 10px"
+      as="footer"
+      direction={{ base: "column", md: "row" }}
+      alignItems="center"
+      justifyContent="center"
+      textAlign="center"
+      gap={{ base: "12px", md: "20px" }}
+      py="20px"
+      px="10px"
       backgroundColor="#78BCF0"
       flexWrap="wrap"
-      justifyContent= "space-around"
-      alignItems="center"
-      textAlign="center"
-      margin="0 10px"
     >
-      <a href="https://github.com/Nuguit" style={{ marginBottom: "10px" }}>
-        <img src={github} title="GitHub" alt="GitHub" width="80" height="80" />
-      </a>
+      <Link href="https://github.com/Nuguit" isExternal display="inline-flex">
+        <Image
+          src={github}
+          title="GitHub"
+          alt="GitHub"
+          boxSize="60px"
+          cursor="pointer"
+        />
+      </Link>
 
-      <div className='name' style={{ color: "white", fontSize: "1.2rem", marginRight: "50px"}}>
-        Contacto: <a href="mailto:nuria@nuriaguevarafuentes.com" style={{ color: 'inherit', transition: 'color 0.3s' }}>nuria@nuriaguevarafuentes.com</a>
-      </div>
+      <Text color="white" fontSize="1.2rem" m={0}>
+        Contacto:{" "}
+        <Link
+          href="mailto:nuria@nuriaguevarafuentes.com"
+          color="white"
+          _hover={{ color: "black" }}
+        >
+          nuria@nuriaguevarafuentes.com
+        </Link>
+      </Text>
     </Flex>
   );
-}
+};
 
 export default Footer;
+
 

@@ -51,13 +51,7 @@ p, .mainbox, .name {
   font-family: "Poiret One", sans-serif;
 }
 
-.name {
-  color: white;
-  margin-right: 0; 
-  display: block;
-  text-align: center;
-  margin-top: 10px;
-}
+
 
 
 .circle-container {
@@ -127,10 +121,7 @@ p, .mainbox, .name {
     text-align: left;
   }
 
-  .name {
-    margin-right: 30px;
-    text-align: right;
-  }
+  
 }
 
 
@@ -147,9 +138,7 @@ p, .mainbox, .name {
     font-size: 30px;
   }
 
-  .name {
-    margin-right: 50px;
-  }
+  
 }
 
 
