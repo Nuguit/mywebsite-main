@@ -35,7 +35,8 @@ const SafeMapPage = () => {
               display: "block",
               margin: "0 auto",
               maxWidth: "600px",
-              height: "auto"
+              height: "auto",
+              width: "100%"
             }}
             src={safemap}
             alt="SafeMap"
